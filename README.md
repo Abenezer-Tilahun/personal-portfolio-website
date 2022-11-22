@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Personal-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Personal Portfolio.
 
-## Available Scripts
+## Live Demo
 
-In the project directory, you can run:
+Click [here](https://abenezer-tilahun.github.io/personal-portfolio-website/) to get a live preview of the project
 
-### `npm start`
+# Features implemented so far are
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Project Setup with React Installations
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Built With
 
-### `npm test`
+- React (A free and open-source front-end JavaScript library for building user interfaces based on UI components)
+- React MUI font icons
+- Stylelint (A mighty, modern linter that helps you avoid errors and enforce conventions in your styles).
+- ESlint (A mighty, modern linter that helps you avoid errors and enforce conventions in JavaScript codes)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `npm run build`
+# Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The basic requirements for building the executable are:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- A working browser application (Google chrome, Mozilla Fire fox, Microsoft edge ...)
+- VSCode or any other equivalent code editor
+- Node Package Manager (For installing packages like Lighthous, webhint & stylelint used for checking for debugging bad codes before deployment)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Getting Started
 
-### `npm run eject`
+#### Cloning the project
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+git clone  https://github.com/Abenezer-Tilahun/Personal-Portfolio.git <Your-Build-Directory>
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting packages and dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To get all package modules required to build the project run:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+every package module required to build the project is listed in the package.json file. this is used as a reference to get all dependencies.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Building
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To build the project run:
 
-### Code Splitting
+```
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+after you run this sucessfully you'd locate the build from in the ```build``` folder located from the parent directory of the project.
 
-### Analyzing the Bundle Size
+## Running
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To run the program on a browser through a server run this command in your cli
 
-### Making a Progressive Web App
+```
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+This should open the page in your localhost on port 3000. then you'd be able to view the built page generated using webpack.
 
-### Advanced Configuration
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to check the [issues page](../../issues/).
 
-### Deployment
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+👤 **Author1**
 
-### `npm run build` fails to minify
+- GitHub: [@Abenezer-Tilahun](https://github.com/Abenezer-Tilahun)
+- Twitter: [@AbenezerTilah11](https://twitter.com/AbenezerTilah11)
+- LinkedIn: [Abenezer Tilahun](https://www.linkedin.com/in/abenezer-tilahun/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
