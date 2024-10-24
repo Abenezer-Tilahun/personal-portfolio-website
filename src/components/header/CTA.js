@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from '../../asset/Resume.pdf';
+import CV from '../../asset/AbenezermesafintCv.pdf';
 
 const CTA = () => (
   // eslint-disable-next-line react/jsx-filename-extension
